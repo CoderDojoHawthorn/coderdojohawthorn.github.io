@@ -1,2 +1,2 @@
 # coderdojohawthorn.github.io
-coderdojo hawthorn website
+This will re-direct you to coderdojohawthorn.tech or cdha.tech
