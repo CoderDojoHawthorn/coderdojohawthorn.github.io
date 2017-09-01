@@ -15,7 +15,6 @@ plugins:
 sass:
     style: compressed
 # Other config
-bgcolor: rgb(199, 207, 242)
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

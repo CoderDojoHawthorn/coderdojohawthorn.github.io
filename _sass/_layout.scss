@@ -1,6 +1,9 @@
+body {
+    background-color: $bgcolor;
+}
 .logo {
     max-width: 128px;
-    float: left;
+    float: $logo_pos;
 }
 header {
     text-align: center;
