@@ -7,15 +7,18 @@
 <title>{{site.title}}</title>
 </head>
 <body>
-    <article>
+    <div class="container">
         <header>
             {% include logo.html class="logo" file="cdhawthorn.png" alt="Jekyll logo"
             caption="This is the CoderDojo logo." %}
             <h1>CoderDojo Hawthorn</h1>
             {% include menu.html %}
         </header>
-        <section></section>
-        <footer></footer>
-    </article>
+		<section>
+			{{ content }}
+		</section>
+		<footer>
+		</footer>
+    </div>
 </body>
 </html>
