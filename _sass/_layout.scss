@@ -1,0 +1,10 @@
+body {
+    background-color: $bgcolor;
+}
+.logo {
+    max-width: 128px;
+    float: $logo_pos;
+}
+header {
+    text-align: center;
+}
