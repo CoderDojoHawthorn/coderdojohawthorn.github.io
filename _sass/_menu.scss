@@ -1,0 +1,15 @@
+.menu {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	li {
+		flex: 1;
+		border: 1px solid #ccc;
+	}
+	a {
+		display: block;
+		padding: .5em 1em;
+		text-align: center;
+		text-decoration: none;
+	}
+}

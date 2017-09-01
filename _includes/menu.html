@@ -2,8 +2,10 @@
 	<ul class="menu">
 		<li ><a href="{{site.github.url}}/">Home</a></li>
 		{% for item in site.pages %}
+			{% if item.menu == true %}
 			<li class="{% if item.url == page.url  %}active{% endif %}">
 				<a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a>
 			</li>
+			{% endif %}
 		{% endfor %}
 </nav>
