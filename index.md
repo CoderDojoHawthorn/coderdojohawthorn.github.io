@@ -5,6 +5,8 @@
 layout: home
 ---
 
+CoderDojo is a global volunteer-led community of free programming clubs for youth between 7 and 17 to learn coding of their choice. We operate in more than 100 countries around the world.
+
 The CoderDojo movement believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so.
 
 
