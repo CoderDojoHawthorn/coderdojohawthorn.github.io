@@ -14,6 +14,10 @@ plugins:
 
 sass:
     style: compressed
+
+
+collections:
+    - events
 # Other config
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
