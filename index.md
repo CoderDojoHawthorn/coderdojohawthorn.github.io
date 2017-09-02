@@ -11,3 +11,5 @@ The CoderDojo movement believes that an understanding of programming languages i
 
 
 To that end, we’ve built a global network of free, volunteer-led, community-based programming clubs for young people. Anyone aged seven to seventeen can visit a Dojo where they can learn to code, build a website, create an app or a game, and explore technology in an informal, creative, and social environment.
+
+CoderDojo Hawthorn is just one of them! We run our youth classes in Hawthorn in Melbourne, Victoria on the second Sunday of every month. Subject to change for 2018. Please get in touch with us for more information. 
