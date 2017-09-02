@@ -6,8 +6,17 @@
 	li {
 		flex: 1;
 		border: 1px solid #ccc;
+        &:hover {
+            color: white;
+            background-color: gray;
+        }
+        &.active {
+            color: white;
+            background-color: darkslategray;
+        }
 	}
 	a {
+        color: inherit;
 		display: block;
 		padding: .5em 1em;
 		text-align: center;
