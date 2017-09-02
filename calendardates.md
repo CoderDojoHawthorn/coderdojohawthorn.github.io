@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calendar Dates
-permalink: /calendardates/
+permalink: /Calendar Dates/
 menu: true
 order: 3
 ---
