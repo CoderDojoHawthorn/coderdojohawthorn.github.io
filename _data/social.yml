@@ -1,12 +1,12 @@
 - name: facebook
-  url: "https://www.facebook.com"
+  url: "https://www.facebook.com/coderdojohawthn/"
   color: 3b5998
 - name: twitter
-  url: "https://www.twitter.com"
+  url: "https://twitter.com/coderdojohawthn"
   color: 00b6f1
 - name: github
-  url: "https://www.github.com"
+  url: "https://github.com/CoderDojoHawthorn"
   color: 171516
 - name: linkedin
-  url: "https://www.linkedin.com"
+  url: "https://www.linkedin.com/groups/13521295"
   color: 007bb6
