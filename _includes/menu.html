@@ -1,8 +1,13 @@
 <nav>
 	<ul class="menu">
+<<<<<<< HEAD
 		<li {% if page.url == '/'%}class= "active"{% endif %}>
 		    <a href="/">Home</a>
 		</li>
+=======
+		<li class="{% if page.url == '/'%}active{% endif %}">
+		<a href="{{site.github.url}}/">Home</a></li>
+>>>>>>> menu_indicators
 		{% assign items = site.pages | sort: 'order' %}
 		{% for item in items '%}
 			{% if item.menu == true %}
