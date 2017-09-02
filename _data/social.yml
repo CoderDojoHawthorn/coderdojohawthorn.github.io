@@ -1,6 +1,5 @@
 - name: facebook
   url: "https://www.facebook.com/coderdojohawthn/"
-  color: 3b5998
 - name: twitter
   url: "https://twitter.com/coderdojohawthn"
   color: 00b6f1
