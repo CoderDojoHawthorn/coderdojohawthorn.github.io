@@ -1,4 +1,4 @@
-name: facebook
+- name: facebook
   url: "https://www.facebook.com"
   color: 3b5998
 - name: twitter
