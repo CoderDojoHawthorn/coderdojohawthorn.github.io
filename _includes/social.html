@@ -1,7 +1,7 @@
-<ul class="social_media" style="list-style: none;text-align: {{include.align}}">
+<ul class="social_media">
     {% for item in site.data.social %}
         <li class="social_icon">
-            <a style="text-decoration: none; float: right; margin: {{ include.margin }}; color: #{{ item.color }}" href="{{ item.url }}"><i class="fa fa-2x fa-{{ item.name }}" aria-hidden="true"></i></a>
+            <a style="margin: {{ include.margin }}; color: #{{ item.color }}" href="{{ item.url }}"><i class="fa fa-2x fa-{{ item.name }}" aria-hidden="true"></i></a>
         </li>
     {% endfor %}
 </ul>
