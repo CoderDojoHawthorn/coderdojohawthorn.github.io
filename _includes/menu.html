@@ -1,10 +1,12 @@
 <nav>
 	<ul class="menu">
-		<li ><a href="{{site.github.url}}/">Home</a></li>
+		<li {% if page.url == '/'%}class= "active"{% endif %}>
+		    <a href="/">Home</a>
+		</li>
 		{% assign items = site.pages | sort: 'order' %}
 		{% for item in items '%}
 			{% if item.menu == true %}
-			<li class="{% if item.url == page.url  %}active{% endif %}">
+			<li {% if item.url == page.url  %} class= "active"{% endif %}>
 				<a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a>
 			</li>
 			{% endif %}
