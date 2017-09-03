@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact Us
-permalink: /contact/
+title: Find Us
+permalink: /find/
 menu: true
 order: 5
 ---
