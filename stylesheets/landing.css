@@ -46,22 +46,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(/img/tshirt.jpg) 
+  background-image: url(img/tshirt.jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(/img/group_code.jpg);
+  background-image: url(img/group_code.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(/img/scratch.png);
+  background-image: url(img/scratch.png);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(/img/coding_courses_for_kids_-_coderdojo.jpg);
+  background-image: url(img/coding_courses_for_kids_-_coderdojo.jpg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(/img/55973606-a-vector-illustration-of-coding-for-kids-poster.jpg);
+  background-image: url(img/55973606-a-vector-illustration-of-coding-for-kids-poster.jpg);
   animation-delay: 40s; 
 }
 
