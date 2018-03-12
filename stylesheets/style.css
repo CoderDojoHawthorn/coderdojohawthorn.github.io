@@ -56,7 +56,7 @@ p{
 #find3{
     display: none;
 }
-#calander2{
+#events2{
     display: none;
 }
 
@@ -162,10 +162,10 @@ footer{
     #find2{
         display: block;
     }
-    #calander{
+    #events{
         display: none;
     }
-    #calander2{
+    #events2{
         display: block;
     }
     header img {
