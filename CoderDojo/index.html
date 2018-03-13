@@ -50,6 +50,35 @@ drift.load('u2m5vgz7c3uh');
 </script>
 <!-- End of Async Drift Code -->
   
+  
+<!--smooth scroll script  -->
+<script>
+     $(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+
+// Change the speed to whatever you want
+// Personally i think 1000 is too much
+// Try 800 or below, it seems not too much but it will make a difference      
+</script>  
+<!--end of smooth scroll  -->
+  
+  
+  
+  
   <body>
       <nav class="navbar navbar-inverse">
           <div class="container-fluid">
@@ -65,9 +94,9 @@ drift.load('u2m5vgz7c3uh');
               <ul class="nav navbar-nav">
                 <li class="active toggle"><a href="/CoderDojo/">Home</a></li>
                 <li class="toggle"><a href="about.html">About</a></li>
-                <li class="toggle"><a href="#events">Events</a></li>
+                <li class="toggle"><a class="smoothScroll" href="#events">Events</a></li>
                 <li class="toggle"><a href="https://coderdojo.com/resources/">Resources</a></li>
-                <li class="toggle"><a href="#find">Location</a></li>
+                <li class="toggle"><a class="smoothScroll"  href="#find">Location</a></li>
               </ul>
             </div>
           </div>
@@ -144,6 +173,7 @@ drift.load('u2m5vgz7c3uh');
     </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
+ 
   </body>
 </html>
 
