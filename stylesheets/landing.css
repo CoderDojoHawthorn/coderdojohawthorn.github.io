@@ -20,7 +20,7 @@ body {
 
 #ballMenuContainer {
   z-index: 1;    
-  margin-top: 45vh;
+  margin-top: 40vh;
   padding: 0 calc(50% - 100px);
     position: absolute;
 }
@@ -75,22 +75,22 @@ body {
 }
 
 #menuBall1 {
-  -webkit-animation: bump 4s linear 0s infinite normal;
+  -webkit-animation: bump 3s linear 0s infinite normal;
 }
 
 
 #menuBall1 {
-  -moz-animation: bump 4s linear 0s infinite normal;
+  -moz-animation: bump 3s linear 0s infinite normal;
 }
 
 
 #menuBall1 {
-  -o-animation: bump 4s linear 0s infinite normal;
+  -o-animation: bump 3s linear 0s infinite normal;
 }
 
 
 #menuBall1 {
-  animation: bump 4s linear 0s infinite normal;
+  animation: bump 3s linear 0s infinite normal;
 }
 
 @-webkit-keyframes pulse {
@@ -146,7 +146,7 @@ body {
       top: 3px;
   }
   10% {
-      top:5px;
+      top:0;
   }
   100% {
       top:0;
@@ -160,7 +160,7 @@ body {
       top: 3px;
   }
   10% {
-      top:5px;
+      top:0;
   }
   100% {
       top:0;
@@ -174,7 +174,7 @@ body {
       top: 3px;
   }
   10% {
-      top:5px;
+      top:0;
   }
   100% {
       top:0;
@@ -188,7 +188,7 @@ body {
       top: 3px;
   }
   10% {
-      top:5px;
+      top:0;
   }
   100% {
       top:0;
